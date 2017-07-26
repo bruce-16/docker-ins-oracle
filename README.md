@@ -21,7 +21,7 @@
    ![install](images/23.png)
    ![install](images/24.png)
     
-6. 打开window10系统的Hyper-V功能。
+6. 打开window10系统的Hyper-V功能。（开始菜单->设置->查找设置，输入控制面板->卸载程序->左侧开启或关闭window功能）
    ![setting](images/22.png)
    开启功能后，**会需要重启**，可能多次重启。等待下。。。
 
