@@ -129,5 +129,5 @@
 7. 在docker中运行镜像，加上-p参数映射对口，-d 后台运行。更多参数参考文档吧。
 
     ``` 
-    docker run -d -p 1521:1521 --name oracle_11g ：registry.aliyuncs.com/helowin/oracle_11g
+    docker run -d -p 1521:1521 --name oracle_11g registry.aliyuncs.com/helowin/oracle_11g
     ```
