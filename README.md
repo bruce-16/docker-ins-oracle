@@ -104,3 +104,30 @@
 ## Docker安装oracle
 > docker安装好后，接下来的操作差不多一样了。只是window7是运行在安装的虚拟机的环境里，而window10直接将这个环境嵌入了window系统里，所以window10是直接在系统运行，之后局域网连接oracle就直接使用该电脑的ip，但是window7需要访问虚拟机，访问里面系统的ip地址，使用ifconfg查看eth0的ip。
 
+1. 打开终端，window10（cmd、git bash都行），window7就使用上面的链接工具吧（XShell链接虚拟机）。
+
+2. 访问阿里云的docker镜像仓库。[链接](https://dev.aliyun.com/search.html?spm=5176.1972343.0.1.599c5715zro8kI)
+
+3. 搜索oracle
+    
+    ![oracle](images/27.png)
+
+4. 这里选择第二个11G的
+
+    ![oracle](images/28.png)
+
+5. 复制地址，在终端运行
+
+    ![run](images/29.png)
+    
+    慢慢等吧。。。
+
+6. 运行 ``` docker images ``` 查看镜像
+
+
+
+7. 在docker中运行镜像，加上-p参数映射对口，-d 后台运行。更多参数参考文档吧。
+
+    ``` 
+    docker run -d -p 1521:1521 --name oracle_11g ：registry.aliyuncs.com/helowin/oracle_11g
+    ```
