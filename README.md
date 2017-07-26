@@ -23,15 +23,17 @@
     
 6. 打开window10系统的Hyper-V功能。
    ![setting](images/22.png)
-   开启功能后，会需要重启，可能多次重启。等待下。。。
+   开启功能后，**会需要重启**，可能多次重启。等待下。。。
 
-7. 下载boot2docker.iso，
-    [github下载地址](https://github.com/boot2docker/boot2docker/releases)。
-    下载完成后，将boot2docker.iso复制到C:\Users\Administrator\.docker\cache文件夹下,如果没有cache文件夹，就创建一个。如果连.docker文件夹都没有，就先执行第8步，然后回来执行第此步骤。
-8. 点击图标运行 
+7. 点击图标运行 
     ![run](images/25.png)
 
+8. 下载boot2docker.iso，
+    [github下载地址](https://github.com/boot2docker/boot2docker/releases)。
+    下载完成后，将boot2docker.iso复制到C:\Users\Administrator\.docker\cache文件夹下，如果没有cache文件夹，就创建一个。
+
 9. 运行cmd，输入docker，有信息就是安装成功了。（状态栏小图标成功运行后，不然执行其他命令还是会报错。）
+   ![cmd](images/26.png)
     
 ### window7
 1. 由于没有直接支持window7的安装包，需要在官网上下载能运行docker的工具（DockerToolbox），[链接](https://www.docker.com/products/docker-toolbox)。
