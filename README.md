@@ -45,18 +45,22 @@
   ![DockerToolbox](images/6.png)
 
 3. 下载完成后，得到安装包
-  ![DockerToolbox](images/7.png)
+
+    ![DockerToolbox](images/7.png)
 
 4. 点击运行
-  ![install](images/8.png)
+  
+    ![install](images/8.png)
   
    如果没有git的就勾选，安装下吧。
-   ![install](images/9.png)
+   
+    ![install](images/9.png)
 
     点击 next 之后点击  install。 等待片刻。。。
 
 5. 安装完成后桌面出现三个图表
-  ![install](images/10.png)
+    
+    ![install](images/10.png)
 
 6. 点击Docker Quickstart Terminal初次运行。这一步骤可能会报错。
     1. 手动启动虚拟机，提示VT-x/AMD-V 硬件加速在系统中不可用；
