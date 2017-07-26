@@ -1,5 +1,5 @@
 # 在window下使用docker安装oracle数据库
-> 目前docker已经稳定支持window10系统，在window上安装docker比window其他系统要方便很多，不过这里也讲解下window7的安装方法。
+> 目前docker已经稳定支持window10系统，在window10上安装docker比window其他系统要方便很多，不过这里也讲解下window7的安装方法。
 
 
 ## 安装docker
