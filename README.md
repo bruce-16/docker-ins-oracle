@@ -57,6 +57,8 @@
   - 若点击Docker Quickstart Terminal图标后，提示window正在查找bash.exe的话，点击浏览自己查找。一般在Git所安装下的bin目录。
 
 - 由于Docker Quickstart Terminal这个终端不能复制粘贴，果断放弃选择另外的方法连接docker的宿主虚拟机吧。
+  - 设置虚拟机的网络连接方式，改为桥接，便于虚拟机上网连接
+  ![virtual](images/21.png)
   - 直接进入virtualBox得到ip地址，然后使用连接工具，连接虚拟机。我这里使用的是Xshell5，百度直接下载安装。
   ![virtual](images/14.png)
   ![virtual](images/15.png)
