@@ -102,3 +102,5 @@
     ![virtual](images/19.png)
 
 ## Docker安装oracle
+> docker安装好后，接下来的操作差不多一样了。只是window7是运行在安装的虚拟机的环境里，而window10直接将这个环境嵌入了window系统里，所以window10是直接在系统运行，之后局域网连接oracle就直接使用该电脑的ip，但是window7需要访问虚拟机，访问里面系统的ip地址，使用ifconfg查看eth0的ip。
+
