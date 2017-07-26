@@ -31,7 +31,7 @@
 
 8. 下载boot2docker.iso，
     [github下载地址](https://github.com/boot2docker/boot2docker/releases)。
-    下载完成后，将boot2docker.iso复制到C:\Users\Administrator\.docker\cache文件夹下，如果没有cache文件夹，就创建一个。
+    下载完成后，将boot2docker.iso复制到C:\Users\Administrator\.docker\machine\cache文件夹下，如果没有machine\cache文件夹，就创建一个。
 
 9. 运行cmd，输入docker，有信息就是安装成功了。（状态栏小图标成功运行后，不然执行其他命令还是会报错。）
    ![cmd](images/26.png)
@@ -79,9 +79,9 @@
         不过在一开始安装好的DockerToolbox根目录下就有一个boot2docker.iso。
      ![install](images/13.png)
   
-         将这个文件拷贝到C:\Users\Administrator\.docker\cache文件夹下，Administrator是当前用户，根据自己实际来。
+         将这个文件拷贝到C:\Users\Administrator\.docker\machine\cache文件夹下，Administrator是当前用户，根据自己实际来。
         拷贝完成之后，再运行Docker Quickstart Terminal，如果还是提示boot2docker.iso不是最新，需要下载，那就老老实实去github上下载吧，[下载地址](https://github.com/boot2docker/boot2docker/releases)。
-        同样，下载完后放在C:\Users\Administrator\.docker\cache文件夹下。
+        同样，下载完后放在C:\Users\Administrator\.docker\machine\cache文件夹下。
 
       4. 若点击Docker Quickstart Terminal图标后，提示window正在查找bash.exe的话，点击浏览自己查找。一般在Git所安装下的bin目录。
 
