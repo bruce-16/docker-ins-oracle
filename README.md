@@ -126,8 +126,36 @@
 
 
 
-7. 在docker中运行镜像，加上-p参数映射对口，-d 后台运行。更多参数参考文档吧。
+7. 在docker中运行镜像（容器），加上-p参数映射对口，-d 后台运行。更多参数参考文档吧。
 
     ``` 
     docker run -d -p 1521:1521 --name oracle_11g registry.aliyuncs.com/helowin/oracle_11g
     ```
+8. 在终端执行 ``` docker ps -a ``` 查看正在运行的容器。
+
+   ![run](images/30.png)
+
+   目前是运行状态，那么现在就可以使用sqlDeveloper工具测试连接了。
+
+9. 连接测试
+
+   - 文档
+     
+      ![doc](images/32.png)
+
+   - window10
+
+      ![run](images/31.png)
+
+   - window7
+   
+       在终端执行 ifconfig， 获取准备连接的ip
+      ![connect](images/33.png)
+
+      ![connect](images/34.png)
+
+   - 最后
+
+      ![connect](images/35.png)
+
+      大工告成。。。
